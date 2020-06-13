@@ -17,7 +17,7 @@ def check_open():
         'timestamps': {},
         'assets': {
             'large_image': 'book',
-            'large_text': 'Epub Reader'
+            'large_text': 'Epub Reader'  # change as you like
         }
     }
 
@@ -38,7 +38,7 @@ def check_open():
             app = Application().connect(path='epubfilereader.exe')
         except Exception as e:
             client.disconnect()
-            print("Disconnecting IPC")
+            print("Disconnecting Discord IPC")
             return False
         pid_of_epubfilereader = psutil.Process(app.process).pid
         foreground_win = win32gui.GetForegroundWindow()
@@ -50,7 +50,7 @@ def check_open():
             pass  # here you can add another event that can trigger if array of pid's is out of bounds.
         if pid_of_epubfilereader != pid_of_another_app:
             pass  # here you can add
-            # something that will trigger if the user is NOT focused on the EPUB File Reader.
+                  # something that will trigger if the user is NOT focused on the EPUB File Reader.
         else:
             gui_title = win32gui.GetWindowText(foreground_win)
             if gui_title == "EPUB File Reader (www.epubfilereader.com)":
@@ -58,9 +58,9 @@ def check_open():
             else:
                 set_activity(gui_title, "User is reading:")
             client.update_activity(activity)
-            time.sleep(5)
+            time.sleep(5)  # change as you like
 
 
 while True:
     check_open()
-    time.sleep(5)
+    time.sleep(5)  # change as you like
