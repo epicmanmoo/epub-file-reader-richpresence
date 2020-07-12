@@ -1,7 +1,7 @@
 # epub-file-reader-discrichpresence 
 ## Yet another Discord related thing I made.
 
-### This 'plugin' (not hosted on any server) allows you to show off what you're reading with epub file reader on Discord. This works on Windows (probably does not on other operating systems). Of course, you must have epubfilereader installed which you can get here: http://www.epubfilereader.com/. Next, place the epubfilereader.exe under `C:\Users\yourname\` This allows for easier lookup for connecting to the epubfilereader while it is active on your desktop. With that out of the way, you can pip install the necessary libraries such as discoIPC, psuitl, pywinauto (I used pywinauto==0.5.4), and win32gui. Next, you must create your own Discord application. The steps are not too complicated.
+### This 'plugin' (not hosted on any server) allows you to show off what you're reading with epub file reader on Discord. This works on Windows (probably does not on other operating systems). Of course, you must have epubfilereader installed which you can get here: http://www.epubfilereader.com/. Next, place the epubfilereader.exe under `C:\Users\yourname\` This allows for easier lookup for connecting to the epubfilereader while it is active on your desktop. With that out of the way, you can pip install the necessary libraries such as discoIPC, psutil, pywinauto (I used pywinauto==0.5.4), and win32gui. Next, you must create your own Discord application. The steps are not too complicated.
   1. Make a discord account if you do not already have one at https://discord.com/
   2. Once you are logged in, go to https://discord.com/developers/applications/
   3. Press New Application and give it a name
