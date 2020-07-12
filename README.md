@@ -12,3 +12,13 @@
   8. You will see Client ID which you can simply copy by pressing the button
   9. Place this in the config.ini file where it is noted with NO quotes and you are done
 ### Once the above steps are completed, simply run the script in python and open epubfilereader. If you've used this application before, you know how to open epub files. If not, well that's not too complicated. Download a book in .epub format and inside EPUB file reader click 'File' -> 'Open' and choose the .epub book you just downloaded. Now watch as your rich presence changes! Your friends can now see what you're reading ;)
+
+## Just some examples below!
+
+### User is not reading anything:
+
+![Not reading](https://i.ibb.co/QQ9S6nF/Capture.png)
+
+### User is reading something:
+
+![Reading](https://i.ibb.co/qpsdYqs/Capture1.png)
